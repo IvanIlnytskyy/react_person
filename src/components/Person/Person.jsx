@@ -12,7 +12,7 @@ export const Person = ({ person }) => {
           {sex === 'm' ? 'Wife' : 'Husband'}: {partnerName}
         </div>
       ) : (
-        <div className="Person__partner">Я не одружений</div>
+        <div className="Person__partner">I am not married</div>
       )}
     </div>
   );
